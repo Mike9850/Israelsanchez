@@ -6,7 +6,12 @@
 		font-family: 'Montserrat Alternates', sans-serif;
 	}
 	body{
-		background: url(https://i.blogs.es/42c528/firos-nv-1wbmbnvv4te-unsplash/1366_2000.jpg);
+		background: #bc4e9c;
+    	/* fallback for old browsers */
+   	 background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(69, 45%, 52%, 0.678));
+   	 /* Chrome 10-25, Safari 5.1-6 */
+   	 background: linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(73, 45%, 52%, 0.664));
+   	 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 		background-size: 100vw 100vh;
 		background-repeat: no-repeat;
 	}
